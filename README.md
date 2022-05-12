@@ -1,5 +1,5 @@
 # IOT แจ้งเตือนการเปิดปิดประตู
-<img src="./img/ProjectCompro_1.png" width=600 height=600>
+<img src="./img/ProjectCompro_1.png" width=600 height=750>
 
 # บทคัดย่อ 
 ชื่อวิจัยภาษาไทย :  เซนเซอร์แจ้งเตือนผ่านไลน์ \

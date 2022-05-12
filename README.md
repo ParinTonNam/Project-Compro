@@ -29,12 +29,12 @@
 4.NodeMcu ESP8266\
 
 # Code
-การเรียกใช้ฟังก์ชัน\
+การเรียกใช้ฟังก์ชัน
 ```cpp
 #include <ESP8266WiFi.h>
 #include <DHT.h>
 ```
-การกำหนดตัวแปร\
+การกำหนดตัวแปร
 ```cpp
 #define WIFI_SSID "ชื่อ wifi" //เปลี่ยนเป็นของตนเอง
 #define WIFI_PASSWORD "รหัส wifi"//เปลี่ยนเป็นของตนเอง
@@ -51,7 +51,7 @@ bool beep_state = false;
 bool send_state = false;
 uint32_t ts, ts1, ts2;
 ```
-การ setup ตั้งค่าส่วนต่างๆ(LED, Pin, WIFI)\
+การ setup ตั้งค่าส่วนต่างๆ(LED, Pin, WIFI)
 ```cpp
 void setup() {
  Serial.begin(115200);

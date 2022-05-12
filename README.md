@@ -1,5 +1,5 @@
 # IOT แจ้งเตือนการเปิดปิดประตู
-![ProjectCompro_1](img/ProjectCompro_1.png)
+![ProjectCompro_1](img/ProjectCompro_1.png=250x100)
 # บทคัดย่อ 
 ชื่อวิจัยภาษาไทย :  เซนเซอร์แจ้งเตือนผ่านไลน์ \
 ชื่อวิจัยภาษาอังกฤษ : Motion Sensor with App Notification \

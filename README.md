@@ -34,3 +34,46 @@
 #include <ESP8266WiFi.h>
 #include <DHT.h>
 ```
+การกำหนดตัวแปร\
+```cpp
+#define WIFI_SSID "ชื่อ wifi" //เปลี่ยนเป็นของตนเอง
+#define WIFI_PASSWORD "รหัส wifi"//เปลี่ยนเป็นของตนเอง
+#define LINE_TOKEN_PIR "line token"//เปลี่ยนเป็นของตนเอง
+#define PirPin D6
+#define DHTPIN D7
+#define DHTTYPE           DHT11
+```
+รับผลจาก Input\
+```cpp
+DHT dht(DHTPIN, DHTTYPE);
+String message1 = "ข้อความแจ้งเตือน";//เปลี่ยนเป็นของตนเอง
+bool beep_state = false;
+bool send_state = false;
+uint32_t ts, ts1, ts2;
+```
+การ setup ตั้งค่าส่วนต่างๆ(LED, Pin, WIFI)\
+```cpp
+void setup() {
+ Serial.begin(115200);
+ Serial.println();
+ pinMode(PirPin, INPUT);
+ pinMode(LED_BUILTIN, OUTPUT);
+ digitalWrite(LED_BUILTIN, HIGH);
+ dht.begin();
+ Serial.println("connecting");
+ WiFi.mode(WIFI_STA);
+ WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
+ Serial.print("connecting");
+ while (WiFi.status() != WL_CONNECTED) {
+   Serial.print(".");
+   delay(500);
+ }
+ Serial.println();
+ Serial.print("connected: ");
+ Serial.println(WiFi.localIP());
+ delay(10000);
+ Serial.println("Pir Ready!!");
+ read_sensor();
+ ts = ts1 = ts2 = millis();
+}
+```

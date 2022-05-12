@@ -41,7 +41,7 @@
 #define LINE_TOKEN_PIR "line token"//เปลี่ยนเป็นของตนเอง
 #define PirPin D6
 #define DHTPIN D7
-#define DHTTYPE           DHT11
+#define DHTTYPE DHT11
 ```
 รับผลจาก Input\
 ```cpp

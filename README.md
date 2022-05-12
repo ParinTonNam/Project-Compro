@@ -1,4 +1,4 @@
-# IOT แจ้งเตือนการเปิดปิดประตู
+# Motion Sensor with App Notification
 <img src="./img/ProjectCompro_1.png" width=632 height=895>
 <!-- ![ProjectCompro_1](img/ProjectCompro_1.png) -->
 

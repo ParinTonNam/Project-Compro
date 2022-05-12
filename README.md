@@ -77,3 +77,27 @@ void setup() {
  ts = ts1 = ts2 = millis();
 }
 ```
+Main หลักของโค้ด
+```cpp
+void loop() {
+ ts = millis();
+ if (WiFi.status() == WL_CONNECTED) {
+   digitalWrite(LED_BUILTIN, LOW);
+ } else {
+   digitalWrite(LED_BUILTIN, HIGH);
+ }
+ if ((ts - ts2 >= 60000) && (WiFi.status() == WL_CONNECTED)) {
+   read_sensor();
+ }
+ if ((ts - ts1 >= 5000) && (beep_state == true)) {
+   beep_state = false;
+ }
+ if ((digitalRead(PirPin) == HIGH) && (beep_state == false) && (WiFi.status() == WL_CONNECTED)) {
+   while (digitalRead(PirPin) == HIGH) delay(100);
+   Serial.println("Detect !");
+   Line_Notify1(message1);
+   beep_state = true;
+ }
+ delay(10);
+}
+```

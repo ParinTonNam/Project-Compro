@@ -131,3 +131,17 @@ void Line_Notify1(String message) {
  }
 }
 ```
+ฟังก์ชันการอ่านค่าที่ได้จากเซนเซอร์
+```cpp
+void read_sensor() {
+ float h = dht.readHumidity();
+ float t = dht.readTemperature();
+ if (isnan(h) || isnan(t)) {
+   Serial.println("Failed to read from DHT sensor!");
+   return;
+ }
+ Serial.print("Temperature: ");
+ Serial.print(t);
+ Serial.println(" *C ");
+}
+```

@@ -23,4 +23,7 @@
 คำสำคัญ : เซนเซอร์ , เทคโนโลยี, อำนวยความสะดวก
 
 # อุปกรณ์
-&emsp;1.IR Infrared Obstacle Avoidance Sensor Module
+&emsp;1.IR Infrared Obstacle Avoidance Sensor Module\
+&emsp;2.หัวชาร์จ USB\
+&emsp;3.สาย Micro USB \
+&emsp;4.NodeMcu ESP8266

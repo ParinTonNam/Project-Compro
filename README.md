@@ -1,5 +1,5 @@
 # IOT แจ้งเตือนการเปิดปิดประตู
-<img src="./img/ProjectCompro_1.png" width=600 height=750>
+<img src="./img/ProjectCompro_1.png" width=632 height=895>
 <!-- ![ProjectCompro_1](img/ProjectCompro_1.png) -->
 
 # บทคัดย่อ 

@@ -44,9 +44,9 @@
 ```
 การกำหนดตัวแปร
 ```cpp
-#define WIFI_SSID "ชื่อ wifi" //เปลี่ยนเป็นของตนเอง
-#define WIFI_PASSWORD "รหัส wifi"//เปลี่ยนเป็นของตนเอง
-#define LINE_TOKEN_PIR "line token"//เปลี่ยนเป็นของตนเอง
+#define WIFI_SSID "ชื่อ wifi" //เปลี่ยนเป็น wifi ของตนเอง
+#define WIFI_PASSWORD "รหัส wifi"//เปลี่ยนเป็น password wifi ของตนเอง
+#define LINE_TOKEN_PIR "line token"//เปลี่ยนเป็น api-line ของตนเอง
 #define PirPin D6
 #define DHTPIN D7
 #define DHTTYPE DHT11
@@ -54,7 +54,7 @@
 รับผลจาก Input\
 ```cpp
 DHT dht(DHTPIN, DHTTYPE);
-String message1 = "ข้อความแจ้งเตือน";//เปลี่ยนเป็นของตนเอง
+String message1 = "ข้อความแจ้งเตือน";//เปลี่ยนเป็นข้อความที่ต้องการจะแสดงผล
 bool beep_state = false;
 bool send_state = false;
 uint32_t ts, ts1, ts2;

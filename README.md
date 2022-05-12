@@ -26,7 +26,7 @@
 1.IR Infrared Obstacle Avoidance Sensor Module\
 2.หัวชาร์จ USB\
 3.สาย Micro USB \
-4.NodeMcu ESP8266\
+4.NodeMcu ESP8266
 
 # Code
 การเรียกใช้ฟังก์ชัน

@@ -26,4 +26,11 @@
 1.IR Infrared Obstacle Avoidance Sensor Module\
 2.หัวชาร์จ USB\
 3.สาย Micro USB \
-4.NodeMcu ESP8266
+4.NodeMcu ESP8266\
+
+# Code
+การเรียกใช้ฟังก์ชัน\
+```cpp
+#include <ESP8266WiFi.h>
+#include <DHT.h>
+```

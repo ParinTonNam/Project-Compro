@@ -28,7 +28,7 @@
 ตัวสัญญาณ infrared จะส่งสัญญาณออกมา และเมื่อมีวัตถุมาบังคลื่นสัญญาณ infrared ที่ถูกส่งออกมาจะสะท้อนกลับไปเข้าตัวรับสัญญาณ สามารถนำมาใช้ตรวจจับวัตถุที่อยู่ตรงหน้าได้ และสามารถปรับความไว ระยะการตรวจจับ ใกล้หรือไกลได้
 
 2.Breadboard 170 holes\
-<img src="./img/board.jpg" width=200 height=200>
+<img src="./img/board.jpg" width=300 height=300>
 
 3.หัวชาร์จ USB\
 <img src="./img/usbcharger.jpg" width=300 height=300>\

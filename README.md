@@ -31,7 +31,7 @@
 &emsp;เป็นแหล่งแปลงและจ่ายไฟฟ้าเข้าอุปกรณ์เพื่อให้อุปกรณ์ทำงาน
 
 3.สาย Micro USB\
-<img src="./img/usb.jpg" width=500 height=300>\
+<img src="./img/usb.jpg" width=200 height=300>\
 &emsp;เป็นสายชาร์จมือถือที่ใช้กับระบบ Android , Windows Phone
 
 4.NodeMcu ESP8266\

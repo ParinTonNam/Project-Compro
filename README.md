@@ -51,7 +51,7 @@
 #define DHTPIN D7
 #define DHTTYPE DHT11
 ```
-รับผลจาก Input\
+รับผลจาก Input
 ```cpp
 DHT dht(DHTPIN, DHTTYPE);
 String message1 = "ข้อความแจ้งเตือน";//เปลี่ยนเป็นข้อความที่ต้องการจะแสดงผล

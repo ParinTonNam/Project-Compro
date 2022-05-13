@@ -16,9 +16,8 @@
 - ใช้เป็นกรณีศึกษาในการทำวิจัยในอนาคต 
 
 สรุปผลการวิจัย
-- จากการทดลองการทำงานของเซนเซอร์แจ้งเตือนมีการทำงานได้ตามปกติ แต่จะมีปัญหา เมื่อผู้ใช้อยู่ในสถานที่ที่ไม่มีบริการสัญญาณ Internet ทำให้เกิดการเชื่อมต่อไม่ติด
+- จากการทดลองการทำงานของเซนเซอร์แจ้งเตือนมีการทำงานได้ตามปกติ แต่จะมีปัญหาเมื่อผู้ใช้อยู่ในสถานที่ที่ไม่มีบริการสัญญาณ Internet ทำให้เกิดการเชื่อมต่อไม่ติด
 
-ข้อเสนอแนะ :\
 คำสำคัญ : เซนเซอร์ , เทคโนโลยี, อำนวยความสะดวก
 
 # อุปกรณ์
@@ -46,12 +45,12 @@
 &emsp;บอร์ดคล้าย Arduino ที่สามารถเชื่อมต่อกับ WiFi ได้, สามารถเขียนโปรแกรมด้วย Arduino IDE ได้เช่นเดียวกับ Arduino และบอร์ดก็มีราคาถูกมากๆ เหมาะแก่ผู้ที่คิดจะเริ่มต้นศึกษา หรือทดลองใช้งานเกี่ยวกับ Arduino, IoT, อิเล็กทรอนิกส์
 
 # Code
-การเรียกใช้ฟังก์ชัน
+## การเรียกใช้ฟังก์ชัน
 ```cpp
 #include <ESP8266WiFi.h>
 #include <DHT.h>
 ```
-การกำหนดตัวแปร
+## การกำหนดตัวแปร
 ```cpp
 #define WIFI_SSID "ชื่อ wifi" //เปลี่ยนเป็น wifi ของตนเอง
 #define WIFI_PASSWORD "รหัส wifi"//เปลี่ยนเป็น password wifi ของตนเอง
@@ -60,7 +59,7 @@
 #define DHTPIN D7
 #define DHTTYPE DHT11
 ```
-รับผลจาก Input
+## รับผลจาก Input
 ```cpp
 DHT dht(DHTPIN, DHTTYPE);
 String message1 = "ข้อความแจ้งเตือน";//เปลี่ยนเป็นข้อความที่ต้องการจะแสดงผล
@@ -68,7 +67,7 @@ bool beep_state = false;
 bool send_state = false;
 uint32_t ts, ts1, ts2;
 ```
-การ setup ตั้งค่าส่วนต่างๆ(LED, Pin, WIFI)
+## การ setup ตั้งค่าส่วนต่างๆ(LED, Pin, WIFI)
 ```cpp
 void setup() {
  Serial.begin(115200);
@@ -94,7 +93,7 @@ void setup() {
  ts = ts1 = ts2 = millis();
 }
 ```
-Main หลักของโค้ด
+## Main หลักของโค้ด
 ```cpp
 void loop() {
  ts = millis();
@@ -118,7 +117,7 @@ void loop() {
  delay(10);
 }
 ```
-การเชื่อมต่อกับ Line Notify
+## การเชื่อมต่อกับ Line Notify
 ```cpp
 void Line_Notify1(String message) {
  WiFiClientSecure client;
@@ -148,7 +147,7 @@ void Line_Notify1(String message) {
  }
 }
 ```
-ฟังก์ชันการอ่านค่าที่ได้จากเซนเซอร์
+## ฟังก์ชันการอ่านค่าที่ได้จากเซนเซอร์
 ```cpp
 void read_sensor() {
  float h = dht.readHumidity();

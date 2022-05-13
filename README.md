@@ -1,6 +1,5 @@
 # Motion Sensor with App Notification
 <img src="./img/ProjectCompro_1.png" width=632 height=895>
-<!-- ![ProjectCompro_1](img/ProjectCompro_1.png) -->
 
 # บทคัดย่อ 
 ชื่อวิจัยภาษาไทย :  เซนเซอร์แจ้งเตือนผ่านไลน์ \
@@ -24,7 +23,7 @@
 
 # อุปกรณ์
 1.IR Infrared Obstacle Avoidance Sensor Module
-![Sensor.jpg](img/Sensor.jpg)
+<img src="./img/Sensor.jpg" width=600 height=400>
 &emsp;โมดูลเซ็นเซอร์แสงสำหรับตรวจจับวัตถุกีดขวาง โดยโมดูลนี้ จะมีตัวรับและตัวส่ง infrared ในตัว 
 ตัวสัญญาณ infrared จะส่งสัญญาณออกมา และเมื่อมีวัตถุมาบังคลื่นสัญญาณ infrared ที่ถูกส่งออกมาจะสะท้อนกลับไปเข้าตัวรับสัญญาณ สามารถนำมาใช้ตรวจจับวัตถุที่อยู่ตรงหน้าได้ และสามารถปรับความไว ระยะการตรวจจับ ใกล้หรือไกลได้
 

@@ -33,8 +33,8 @@
 3.สาย Micro USB\
 &emsp;เป็นสายชาร์จมือถือที่ใช้กับระบบ Android , Windows Phone
 
-4.NodeMcu ESP8266
-![ESP8266.jpg](img/ESP8266.jpg)
+4.NodeMcu ESP8266\
+<img src="./img/ESP8266.jpg" width=500 height=300>\
 &emsp;บอร์ดคล้าย Arduino ที่สามารถเชื่อมต่อกับ WiFi ได้, สามารถเขียนโปรแกรมด้วย Arduino IDE ได้เช่นเดียวกับ Arduino และบอร์ดก็มีราคาถูกมากๆ เหมาะแก่ผู้ที่คิดจะเริ่มต้นศึกษา หรือทดลองใช้งานเกี่ยวกับ Arduino, IoT, อิเล็กทรอนิกส์
 
 # Code

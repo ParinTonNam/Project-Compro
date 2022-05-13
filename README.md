@@ -163,11 +163,6 @@ void read_sensor() {
 ```
 # คลิปสาธิตการใช้งาน
 [![Motion Sensor with App Notification](https://cdn.discordapp.com/attachments/966237306526760980/974708951088238602/unknown.png)](https://youtu.be/JH1A8Qk0FJ8 "Motion Sensor with App Notification")
-<iframe width="560" height="315"
-src="https://youtu.be/JH1A8Qk0FJ8" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
 ## https://youtu.be/JH1A8Qk0FJ8
 
 # สมาชิก

@@ -162,6 +162,7 @@ void read_sensor() {
 }
 ```
 # คลิปสาธิตการใช้งาน
+<video src='https://youtu.be/JH1A8Qk0FJ8' width=180/>
 https://youtu.be/JH1A8Qk0FJ8
 
 # สมาชิก

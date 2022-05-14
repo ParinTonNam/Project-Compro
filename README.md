@@ -1,9 +1,9 @@
-# Motion Sensor with App Notification
+# Motion Detector with App Notification
 <img src="./img/ProjectCompro_1.png" width=632 height=895>
 
 # บทคัดย่อ 
 ชื่อวิจัยภาษาไทย :  เซนเซอร์แจ้งเตือนผ่านไลน์ \
-ชื่อวิจัยภาษาอังกฤษ : Motion Sensor with App Notification \
+ชื่อวิจัยภาษาอังกฤษ : Motion Detector with App Notification \
 ชื่อผู้วิจัย : \
 &emsp;นาย เกียรกำธร พูลพล 64070009 \
 &emsp;นาย ปรินทร์ เดชากรณ์ 64070064 \
